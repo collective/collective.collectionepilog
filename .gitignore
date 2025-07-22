@@ -2,3 +2,4 @@ collective.addon
 **/__pycache__
 __pycache__
 *.egg-info/
+*.mo
