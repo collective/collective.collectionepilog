@@ -3,3 +3,5 @@ collective.addon
 __pycache__
 *.egg-info/
 *.mo
+*.pyc
+*.pyo
