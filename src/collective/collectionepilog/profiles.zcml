@@ -6,7 +6,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="collective.collectionepilog: Install"
+      title="collective.collectionepilog"
       description="Package to configure a new collective.collectionepilog site"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       directory="profiles/default"
