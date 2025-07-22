@@ -16,6 +16,8 @@
   <include file="permissions.zcml"/>
   <!-- -*- extra stuff goes here -*- -->
 
+  <include package=".viewlets" />
+
     <include package=".behaviors" />
 
 
