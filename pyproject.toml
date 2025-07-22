@@ -62,7 +62,7 @@ include-package-data = false
 version = {attr = "collective.collectionepilog.__version__"}
 
 [tool.zest-releaser]
-python-file-with-version = "collective.collectionepilog/__init__.py"
+python-file-with-version = "src/collective/collectionepilog/__init__.py"
 
 # [tool.hatch.version]
 # path = "src/collective/collectionepilog/__init__.py"
