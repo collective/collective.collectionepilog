@@ -63,6 +63,8 @@ version = {attr = "collective.collectionepilog.__version__"}
 
 [tool.zest-releaser]
 python-file-with-version = "src/collective/collectionepilog/__init__.py"
+version-levels = 3
+
 
 # [tool.hatch.version]
 # path = "src/collective/collectionepilog/__init__.py"
