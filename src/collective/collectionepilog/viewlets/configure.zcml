@@ -8,8 +8,8 @@
 
   <browser:viewlet
      name="collection-epilog"
-     for="plone.app.contenttypes.interfaces.IDocument"
-     manager="plone.app.layout.viewlets.interfaces.IAboveContentTitle"
+     for="plone.app.contenttypes.interfaces.ICollection"
+     manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
      layer="collective.collectionepilog.interfaces.ICollectiveCollectionepilogLayer"
      class=".collection_epilog.CollectionEpilog"
      template="collection-epilog.pt"
