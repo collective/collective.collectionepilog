@@ -1,0 +1,16 @@
+LICENSE.GPL
+LICENSE.md
+README.md
+pyproject.toml
+src/collective/collectionepilog/__init__.py
+src/collective/collectionepilog/interfaces.py
+src/collective/collectionepilog/testing.py
+src/collective/collectionepilog/locales/__init__.py
+src/collective/collectionepilog/locales/__main__.py
+src/collective/collectionepilog/setuphandlers/__init__.py
+src/collective_collectionepilog.egg-info/PKG-INFO
+src/collective_collectionepilog.egg-info/SOURCES.txt
+src/collective_collectionepilog.egg-info/dependency_links.txt
+src/collective_collectionepilog.egg-info/entry_points.txt
+src/collective_collectionepilog.egg-info/requires.txt
+src/collective_collectionepilog.egg-info/top_level.txt
