@@ -1,51 +1,42 @@
-# {{ cookiecutter.python_package_name }}
+# collective.collectionepilog
 
-{{ cookiecutter.description }}
-
-## Features
-
-TODO: List our awesome features
+Provides a behavior for collections to add epilog RichText field under the collection results.
+The content of the epilog will be added to the collection views via `collection-epilog` viewlet below the content.
 
 ## Installation
 
-Install {{ cookiecutter.python_package_name }} with `pip`:
+Install collective.collectionepilog with
+
+`pip`:
 
 ```shell
-pip install {{ cookiecutter.python_package_name }}
+pip install collective.collectionepilog
 ```
 
-And to create the Plone site:
+or `uv`:
 
 ```shell
-make create-site
+uv add collective.collectionepilog
 ```
 
 ## Contribute
 
-- [Issue tracker]({{ cookiecutter.__repository_url }}/issues)
-- [Source code]({{ cookiecutter.__repository_url }}/)
+- [Issue tracker](https://github.com/collective/collective.collectionepilog/issues)
+- [Source code](https://github.com/collective/collective.collectionepilog/)
 
 ### Prerequisites ✅
 
 -   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
 -   [uv](https://6.docs.plone.org/install/create-project-cookieplone.html#uv)
--   [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
 -   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
--   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
 
-### Installation 🔧
+### Development 🔧
 
 1.  Clone this repository, then change your working directory.
 
     ```shell
-    git clone {{ cookiecutter.__repository_git }}.git
-    cd {{ cookiecutter.__project_slug }}
-    ```
-
-2.  Install this code base.
-
-    ```shell
-    make install
+    git clone git@github.com:collective/collective.collectionepilog
+    cd collective.collectionepilog
     ```
 
 
@@ -57,19 +48,19 @@ These markers act as hooks to add all kinds of subtemplates, including behaviors
 To run `plonecli` with configuration to target this package, run the following command.
 
 ```shell
-make add <template_name>
+plonecli add <template_name>
 ```
 
 For example, you can add a content type to your package with the following command.
 
 ```shell
-make add content_type
+plonecli add content_type
 ```
 
 You can add a behavior with the following command.
 
 ```shell
-make add behavior
+plonecli add behavior
 ```
 
 ```{seealso}
@@ -83,4 +74,4 @@ The project is licensed under GPLv2.
 
 ## Credits and acknowledgements 🙏
 
-{{ cookiecutter.__generator_signature }}. A special thanks to all contributors and supporters!
+A special thanks to all contributors and supporters!

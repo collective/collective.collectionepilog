@@ -10,7 +10,7 @@
      name="collection-epilog"
      for="plone.app.contenttypes.interfaces.ICollection"
      manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
-     layer="collective.collectionepilog.interfaces.ICollectiveCollectionepilogLayer"
+     layer="collective.collectionepilog.interfaces.IBrowserLayer"
      class=".collection_epilog.CollectionEpilog"
      template="collection-epilog.pt"
      permission="zope2.View"
