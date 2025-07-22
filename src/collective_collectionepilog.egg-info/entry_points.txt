@@ -1,3 +1,0 @@
-[plone.autoinclude.plugin]
-module = collective.collectionepilog
-target = plone
