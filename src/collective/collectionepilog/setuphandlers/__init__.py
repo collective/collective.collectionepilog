@@ -8,5 +8,5 @@ class HiddenProfiles:
         """Hide uninstall profile from site-creation and quickinstaller."""
         return [
             "collective.collectionepilog:uninstall",
-            "collective.collectionepilog:1001",
+            "collective.collectionepilog.upgrades:1001",
         ]
