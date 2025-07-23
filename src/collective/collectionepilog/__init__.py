@@ -3,7 +3,7 @@
 import logging
 from zope.i18nmessageid import MessageFactory
 
-__version__ = "0.1.0a5"
+__version__ = "0.1.0a6.dev0"
 
 PACKAGE_NAME = "collective.collectionepilog"
 
