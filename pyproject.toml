@@ -56,7 +56,7 @@ where = ["src"]
 
 [tool.setuptools]
 package-dir = { "" = "src" }
-include-package-data = false
+include-package-data = true
 
 [tool.setuptools.dynamic]
 version = {attr = "collective.collectionepilog.__version__"}
