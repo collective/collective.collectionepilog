@@ -1,4 +1,4 @@
-## 0.1.0a6 (unreleased)
+## 0.1.0a6 (2025-07-23)
 
 
 - Hide upgrade step profiles from addons list
